@@ -1,0 +1,35 @@
+--- nailer.schemas.in.ORIG	2008-09-02 22:22:57.000000000 +0200
++++ nailer.schemas.in	2008-11-03 16:38:03.313251910 +0100
+@@ -750,6 +750,32 @@
+ 
+ 
+         <schema>
++            <key>/schemas/desktop/gnome/thumbnailers/video@x-flv/enable</key>
++            <applyto>/desktop/gnome/thumbnailers/video@x-flv/enable</applyto>
++            <owner>nailer</owner>
++            <type>bool</type>
++            <default>true</default>
++            <locale name="C">
++                <short></short>
++                <long></long>
++            </locale>
++        </schema>
++
++
++        <schema>
++            <key>/schemas/desktop/gnome/thumbnailers/video@x-flv/command</key>
++            <applyto>/desktop/gnome/thumbnailers/video@x-flv/command</applyto>
++            <owner>nailer</owner>
++            <type>string</type>
++            <default>@prefix@/bin/nailer %i %o %s</default>
++            <locale name="C">
++                <short></short>
++                <long></long>
++            </locale>
++        </schema>
++
++
++        <schema>
+             <key>/schemas/desktop/gnome/thumbnailers/video@fli/enable</key>
+             <applyto>/desktop/gnome/thumbnailers/video@fli/enable</applyto>
+             <owner>nailer</owner>
