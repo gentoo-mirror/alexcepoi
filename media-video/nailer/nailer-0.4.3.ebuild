@@ -1,4 +1,4 @@
-# Copyright 1999-2008 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,14 +15,13 @@ SLOT="0"
 KEYWORDS="~x86 ~amd64"
 IUSE=""
 
-DEPEND=""
 RDEPEND="media-video/mplayer"
+DEPEND=""
 
 src_unpack() {
 	unpack ${A}
-
-	cd ${S}
-	epatch ${FILESDIR}/x-flv.patch
+	cd "${S}"
+	epatch "${FILESDIR}"/x-flv.patch
 }
 
 src_install() {
