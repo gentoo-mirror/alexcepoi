@@ -7,8 +7,8 @@ inherit eutils
 DESCRIPTION="A drop down terminal, similar to the consoles found in first person shooters"
 HOMEPAGE="http://tilda.sourceforge.net"
 SRC_URI="mirror://sourceforge/tilda/${P}.tar.gz"
-
 LICENSE="GPL-2"
+
 SLOT="0"
 KEYWORDS="~amd64 ~ppc ~x86 ~x86-fbsd ~x86-interix ~amd64-linux ~x86-linux"
 IUSE=""
