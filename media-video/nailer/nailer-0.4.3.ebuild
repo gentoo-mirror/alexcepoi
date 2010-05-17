@@ -9,8 +9,8 @@ inherit eutils gnome2
 DESCRIPTION="Video Thumbnailer that uses mplayer"
 HOMEPAGE="http://code.google.com/p/mplayer-video-thumbnailer/"
 SRC_URI="http://mplayer-video-thumbnailer.googlecode.com/files/${P}.tar.gz"
-LICENSE="GPL-2"
 
+LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~x86 ~amd64"
 IUSE=""

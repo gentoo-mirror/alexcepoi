@@ -1,6 +1,6 @@
 # Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-util/monodevelop/monodevelop-2.2.2.ebuild,v 1.1 2010/05/04 06:46:40 patrick Exp $
+# $Header: $
 
 EAPI=2
 
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="+subversion"
 
 RDEPEND="sys-apps/dbus[X]
-	>=dev-lang/mono-2.4
+	>=dev-lang/mono-2.6.1
 	>=virtual/monodoc-2.0
 	||	(
 		>=dev-dotnet/mono-addins-0.4[gtk]
