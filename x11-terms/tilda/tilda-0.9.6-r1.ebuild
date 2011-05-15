@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~ppc ~x86 ~x86-fbsd ~x86-interix ~amd64-linux ~x86-linux"
 IUSE=""
 
-RDEPEND="=x11-libs/vte-0.26.2
+RDEPEND="=x11-libs/vte-0.28.0-r200
 	>=dev-libs/glib-2.8.4
 	dev-libs/confuse
 	gnome-base/libglade"

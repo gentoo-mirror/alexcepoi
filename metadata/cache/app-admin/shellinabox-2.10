@@ -1,20 +1,20 @@
-pam? ( virtual/pam )
+ssl? ( >=dev-libs/openssl-0.9.8 )
 ssl? ( >=dev-libs/openssl-0.9.8 )
 0
 http://shellinabox.googlecode.com/files/shellinabox-2.10.tar.gz
 
-http://code.google.com/p/shellinabox/
-GPL-2
-Export any console application (login shell included) as an ajax web application.
-~amd64 ~x86
+http://code.google.com/p/shellinabox
+GPL-2.0
+Web based AJAX terminal emulator
+~x86 ~amd64
 eutils multilib portability toolchain-funcs
-pam ssl
++ssl
 
 
 
 2
 
-configure install postinst preinst
+configure install setup
 
 
 
