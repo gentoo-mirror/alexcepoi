@@ -1,5 +1,5 @@
-=x11-libs/vte-0.28.0-r200 >=dev-libs/glib-2.8.4 dev-libs/confuse gnome-base/libglade dev-util/pkgconfig
-=x11-libs/vte-0.28.0-r200 >=dev-libs/glib-2.8.4 dev-libs/confuse gnome-base/libglade
+>x11-libs/vte-0.28 >=dev-libs/glib-2.8.4 dev-libs/confuse gnome-base/libglade dev-util/pkgconfig
+>x11-libs/vte-0.28 >=dev-libs/glib-2.8.4 dev-libs/confuse gnome-base/libglade
 0
 mirror://sourceforge/tilda/tilda-0.9.6.tar.gz
 
