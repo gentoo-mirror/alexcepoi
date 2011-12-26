@@ -7,7 +7,7 @@ http://code.google.com/p/shellinabox
 GPL-2.0
 Web based AJAX terminal emulator
 ~x86 ~amd64
-eutils multilib portability toolchain-funcs
+eutils multilib portability toolchain-funcs user
 +ssl
 
 
