@@ -1,0 +1,4 @@
+app-admin/rcm 1.2.3: Management suite for dotfiles
+dev-perl/Linux-Distribution 0.210.0: Detect on which Linux distribution we are running
+dev-perl/Log-LogLite 0.820.0: The Log::LogLite class helps us create simple logs for our application.
+net-analyzer/linode-longview 1.1.4-r1 9999: Linode Longview
