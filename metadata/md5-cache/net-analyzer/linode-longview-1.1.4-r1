@@ -8,5 +8,4 @@ LICENSE=Artistic GPL-2
 RDEPEND=app-portage/eix dev-perl/IO-Socket-INET6 dev-perl/JSON dev-perl/Log-LogLite dev-perl/libwww-perl[ssl] dev-perl/Linux-Distribution dev-perl/Try-Tiny dev-perl/DBI mysql? ( dev-perl/DBD-mysql )
 SLOT=0
 SRC_URI=https://github.com/linode/longview/archive/v1.1.4.tar.gz -> linode-longview-1.1.4.tar.gz
-_eclass_exported_funcs=pkg_postinst:- src_install:-
 _md5_=57e5ec8f81c9dc646943ed980863b26f
