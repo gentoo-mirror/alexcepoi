@@ -1,0 +1,23 @@
+#!/sbin/openrc-run
+
+command="/opt/linode/longview/Linode/Longview.pl"
+pidfile="/run/longview.pid"
+
+extra_started_commands="reload"
+extra_stopped_commands="debug"
+
+depend() {
+    need net
+}
+
+debug() {
+    ebegin "Starting ${RC_SVCNAME} (With Debug Flag)"
+    start-stop-daemon --start -p $pidfile --exec $command Debug
+    eend $?
+}
+
+reload() {
+    ebegin "Reloading ${RC_SVCNAME}"
+    start-stop-daemon --signal HUP -p $pidfile
+    eend $?
+}
